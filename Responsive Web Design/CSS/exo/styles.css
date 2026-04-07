@@ -1,0 +1,43 @@
+body {
+  background-color: #f4f4f4;
+}
+h1 {
+  text-align: center;
+}
+
+.color-grid {
+  margin: auto 0;
+  padding: 10px 0;
+}
+.color-box {
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+
+}
+
+.color1 {
+  background-color: #978585;
+  
+}
+
+.color2 {
+  background-color: rgb(255, 227, 50);
+}
+
+.color3 {
+  background-color: pink;
+}
+
+.color4 {
+  background-color: hsl(200, 100%, 65%);
+}
+.color5 {
+  background-color: purple;
+}
+
+.color1, .color2, .color3, .color4, .color5 {
+  margin-bottom: -20px;
+  border: 1px solid gray;
+    box-shadow: 0 -0 20px #3B7E20CC;
+}
